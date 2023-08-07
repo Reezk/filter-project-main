@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    padding: 50px;
+}
+
+.leftside{
+    flex: 1;
+}
+
+.content{
+    flex: 4;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.product{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  
+}
+
+img{
+    width: 150px;
+    height: 250px;
+    object-fit: cover;
+    
+}
